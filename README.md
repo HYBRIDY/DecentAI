@@ -41,6 +41,8 @@ decentai-full/
 ├── frontend/           # Static HTML dashboards
 │   ├── index.html              # Landing page (hybridy.site)
 │   └── dashboard.html          # User dashboard (deposit/balance/history)
+│   └── team.html               # The People behind the Protocol (Founding team/open-positions)
+│   └── docs.html               # A complete guide to using DecentAI's protocol, DeFi Intelligence Agent, and Model Registry — written for non-technical users.
 │
 ├── docs/               # Full documentation
 │   ├── architecture.md
@@ -89,7 +91,7 @@ uvicorn main:app --reload --port 8000
 | Chain | Arc Testnet |
 | Chain ID | `5042002` |
 | RPC | `https://rpc.testnet.arc.network` |
-| Explorer | `https://explorer.testnet.arc.network` |
+| Explorer | `https://testnet.arcscan.app/` |
 | Settlement | USDC (native Arc token) |
 | Fee model | 10% protocol / 90% node |
 
