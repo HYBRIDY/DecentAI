@@ -1,0 +1,9 @@
+.env
+node_modules/
+artifacts/
+cache/
+deployment.json
+registry_deployment.json
+__pycache__/
+*.pyc
+.DS_Store
